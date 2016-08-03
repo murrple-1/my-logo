@@ -9,6 +9,14 @@
       font-weight: normal;
       font-style: normal;
     }
+
+    @font-face {
+      font-family: 'impact-regular';
+      src: url('impact_rg-webfont.woff2') format('woff2'),
+            url('impact_rg-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
   </style>
   <linearGradient y1="0" x1="0" y2="1" x2="1" spreadMethod="pad" id="inner-circle-fill">
    <stop offset="0" stop-color="#000796"/>
@@ -18,21 +26,21 @@
   <linearGradient y1="0" x1="1" y2="1" x2="1" spreadMethod="pad" id="outer-circle-fill">
    <stop offset="0" stop-color="#6d0000"/>
    <stop offset="0.2" stop-color="#ff0000"/>
-   <stop offset="0.4" stop-color="#d1d1d1"/>
+   <stop offset="0.4" stop-color="#ffcccc"/>
    <stop offset="0.6" stop-color="#ff0000"/>
    <stop offset="1" stop-color="#6d0000"/>
   </linearGradient>
   <linearGradient y1="0" x1="1" y2="1" x2="1" spreadMethod="pad" id="left-r-fill">
    <stop offset="0" stop-color="#700000"/>
    <stop offset="0.45" stop-color="#ff0000"/>
-   <stop offset="0.5" stop-color="#ffffff"/>
+   <stop offset="0.5" stop-color="#ffcccc"/>
    <stop offset="0.55" stop-color="#ff0000"/>
    <stop offset="1" stop-color="#700000"/>
   </linearGradient>
   <linearGradient y1="0" x1="1" y2="1" x2="1" spreadMethod="pad" id="right-r-fill">
    <stop offset="0" stop-color="#560000"/>
    <stop offset="0.45" stop-color="#b20000"/>
-   <stop offset="0.5" stop-color="#ffffff"/>
+   <stop offset="0.5" stop-color="#ffb3b3"/>
    <stop offset="0.55" stop-color="#b20000"/>
    <stop offset="1" stop-color="#560000"/>
   </linearGradient>
@@ -40,8 +48,8 @@
  <g>
   <circle id="outer-circle" r="128" cx="128" cy="128" fill="url(#outer-circle-fill)"/>
   <circle id="inner-circle" r="113" cx="143" cy="128" fill="url(#inner-circle-fill)"/>
-  <text id="right-r" font-style="italic" stroke="#ffffff" font-family="ethnocentric-regular" font-size="148" x="40" y="150" stroke-width="0.6" fill="url(#right-r-fill)">R</text>
-  <text id="left-r" font-style="italic" stroke="#ffffff" font-family="ethnocentric-regular" font-size="148" x="60" y="150" stroke-width="0.6" fill="url(#left-r-fill)">R</text>
-  <text id="full-name" font-weight="normal" stroke="#ffffff" font-family="ethnocentric-regular" font-size="18" x="45" y="160" stroke-width="0.2" fill="#ff0000">Roadrunner</text>
+  <text id="right-r" stroke="#ffffff" font-family="ethnocentric-regular" font-size="148" x="95" y="175" stroke-width="0.7" fill="url(#right-r-fill)">R</text>
+  <text id="left-r" stroke="#ffffff" font-family="ethnocentric-regular" font-size="148" x="40" y="175" stroke-width="0.7" fill="url(#left-r-fill)">R</text>
+  <text id="full-name" stroke="#ffffff" font-family="impact-regular" font-size="30" x="73" y="210" stroke-width="0.4" fill="#ff0000">Roadrunner</text>
  </g>
 </svg>

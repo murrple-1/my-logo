@@ -1,19 +1,21 @@
 <?xml version="1.0"?>
-<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
  <defs>
   <style type="text/css">
     @font-face {
       font-family: 'ethnocentric-regular';
-      src:  url('ethnocentric_rg-webfont.woff2') format('woff2'),
-            url('ethnocentric_rg-webfont.woff') format('woff');
+      src: local(Ethnocentric),
+           url('ethnocentric_rg-webfont.woff2') format('woff2'),
+           url('ethnocentric_rg-webfont.woff') format('woff');
       font-weight: normal;
       font-style: normal;
     }
 
     @font-face {
       font-family: 'impact-regular';
-      src: url('impact_rg-webfont.woff2') format('woff2'),
-            url('impact_rg-webfont.woff') format('woff');
+      src: local(Impact),
+           url('impact_rg-webfont.woff2') format('woff2'),
+           url('impact_rg-webfont.woff') format('woff');
       font-weight: normal;
       font-style: normal;
     }
@@ -45,7 +47,7 @@
    <stop offset="1" stop-color="#560000"/>
   </linearGradient>
  </defs>
- <g>
+ <g id="logo">
   <circle id="outer-circle" r="128" cx="128" cy="128" fill="url(#outer-circle-fill)"/>
   <circle id="inner-circle" r="113" cx="143" cy="128" fill="url(#inner-circle-fill)"/>
   <text id="right-r" stroke="#ffffff" font-family="ethnocentric-regular" font-size="148" x="95" y="175" stroke-width="0.7" fill="url(#right-r-fill)">R</text>
